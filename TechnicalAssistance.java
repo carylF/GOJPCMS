@@ -19,6 +19,14 @@ public class TechnicalAssistance extends Project
         // initialise instance variables
         super(name,description);
     }
+    
+      
+    public void hireConsultant(String consultant_id, String consultant_name)
+    {
+        this.consultant_id = consultant_id;
+        this.consultant_name= consultant_name;
+    }
+    
 
     
 }
