@@ -21,6 +21,14 @@ public class Captial extends Project
         super(name,description);
         this.typeOfCapital= typeOfCapital;
     }
+    
+    //public String displayContract()
+    //{
+    //}
+    
+    //public String displayConsultantContrac()
+    //{
+    //}
 
     
 }
